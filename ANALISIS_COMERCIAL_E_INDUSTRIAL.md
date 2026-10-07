@@ -107,6 +107,6 @@ Tomando como base un contrato industrial típico con **25 equipos de misión cr�
 ---
 
 <div align="center">
-  <b>BetoGraf_Inc SpA — Innovación, Ingeniería de Software & Excelencia Operacional</b><br>
-  Para solicitar un informe de viabilidad técnica o demostración ejecutiva, contacte a <a href="mailto:soporte@betograf.cl">soporte@betograf.cl</a>
+  <b>BetoGraf_Inc SpA — Programación - Desarrollo web y servicios tecnologicos Toledos SpA</b><br>
+  Para solicitar un informe de viabilidad técnica o demostración ejecutiva, contacte a <a href="mailto:contacto@betograf.cl">contacto@betograf.cl</a> o al <a href="https://wa.me/56933445244">+56 9 33445244</a>
 </div>

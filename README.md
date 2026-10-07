@@ -233,14 +233,14 @@ Si su organización requiere modernizar sus procesos de mantenimiento, auditar e
 <div align="center">
 
 ### 🏢 BetoGraf_Inc SpA
-**Servicios Tecnológicos & Soluciones de Software Industrial de Alta Gama**  
+**Programación - Desarrollo web y servicios tecnologicos Toledos SpA**  
 Santiago de Chile
 
-[![WhatsApp Comercial](https://img.shields.io/badge/WHATSAPP%20COMERCIAL-SOLICITAR%20DEMO-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/56954678285?text=Hola,%20solicito%20una%20demostración%20comercial%20privada%20de%20la%20plataforma%20GestionA)
+[![WhatsApp Comercial](https://img.shields.io/badge/WHATSAPP%20COMERCIAL-SOLICITAR%20DEMO-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/56933445244?text=Hola,%20solicito%20una%20demostración%20comercial%20privada%20de%20la%20plataforma%20GestionA)
 [![Sitio Web Oficial](https://img.shields.io/badge/SITIO%20WEB-BETOGRAF.CL-0ea5e9?style=for-the-badge&logo=googlechrome&logoColor=white)](https://betograf.cl)
 
-📧 **Contacto Directo:** [soporte@betograf.cl](mailto:soporte@betograf.cl)  
-📱 **Mesa de Ayuda Ejecutiva:** [+56 9 5467 8285](https://wa.me/56954678285)
+📧 **Contacto Directo:** [contacto@betograf.cl](mailto:contacto@betograf.cl)  
+📱 **Mesa de Ayuda Ejecutiva:** [+56 9 33445244](https://wa.me/56933445244)
 
 </div>
 
