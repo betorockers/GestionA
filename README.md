@@ -121,7 +121,7 @@ A continuación se presentan capturas reales de la interfaz de **GestionA™**, 
   │   6. 🏷️ Rotulación de Activos QR de Alta Densidad y Escaneo por Cámara Nativa          │
   │   7. 🏛️ Módulo de Carga Histórica para Auditorías y Respaldo de Atenciones Previas     │
   │   8. 🏢 Auditoría Multisede & Grupos Corporativos (Aislamiento Total por Cliente)      │
-  │   9. 🛡️ Telemetría en Vivo & API de Monitoreo Central (/api/health para NOC/SOC)      │
+  │   9. 🛡️ Telemetría Operacional en Tiempo Real para Centros de Control (NOC/SOC)      │
   │                                                                                        │
   └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -180,11 +180,11 @@ GestionA™ incorpora una arquitectura multi-sede que permite agrupar múltiples
 * **Informes Ejecutivos PDF Blindados:** El motor de PDF emite documentos oficiales de nivel Fortune 500 con métricas, gráficos de SLA y desglose de tickets acotados exclusivamente a la empresa seleccionada, garantizando estricta confidencialidad entre clientes.
 * **Escalabilidad Modular:** Nuevas instalaciones pueden sumarse a grupos existentes o inaugurar nuevos holdings sin necesidad de alterar el código fuente.
 
-### 9. 🛡️ Telemetría en Vivo & API de Monitoreo Central (`/api/health`)
-Para organizaciones que operan con Centros de Control (NOC/SOC) o plataformas de observabilidad como Uptime Kuma, Datadog o Grafana:
-* **Diagnóstico Integral en Milisegundos:** Endpoint nativo `/api/health` que audita en tiempo real la conectividad de base de datos PostgreSQL, storage de evidencias en la nube y servicios Web Push.
-* **KPIs Operacionales en el Payload:** Entrega conteos en vivo de órdenes críticas activas, tasa de resolución, estado operativo del parque de activos y disponibilidad de cuadrillas técnicas.
-* **Arquitectura Privativa No Indexable:** Diseñada para integrarse en tableros de control externos manteniendo la infraestructura invisible para motores de búsqueda públicos.
+### 9. 🛡️ Telemetría Operacional en Tiempo Real para Centros de Control (NOC/SOC)
+Para organizaciones que operan con Centros de Control de Seguridad o tableros ejecutivos de observabilidad centralizada:
+* **Diagnóstico Integral Continuo:** Monitoreo activo de conectividad con bases de datos transaccionales, almacenamiento de evidencias y servicios críticos de despacho.
+* **KPIs Operacionales en Vivo:** Provee visibilidad en tiempo real de órdenes críticas activas, tasas de cumplimiento de SLAs, disponibilidad porcentual de equipos e inventario de cuadrillas operativas.
+* **Integración Segura y Privativa:** Diseñado para integrarse en pantallas maestras y cuadros de mando corporativos manteniendo los protocolos de seguridad completamente blindados.
 
 ---
 
@@ -224,23 +224,6 @@ GestionA™ está construido sobre los estándares más exigentes de la ingenier
 * **Control de Acceso Basado en Roles (RBAC):** Separación estricta de privilegios (`SUPERADMIN`, `SUPERVISOR`, `COORDINADOR`, `TECNICO`) validada mediante esquemas en cada Server Action.
 * **Criptografía FIDO2 / WebAuthn:** Claves públicas asimétricas almacenadas en hardware local sin contraseñas compartidas ni vulnerabilidad ante phishing.
 * **Blindaje Client-Side en Terreno:** Prevención de desbordes de viewport (100dvh), bloqueo de atajos de teclado destructivos y optimización táctil.
-
----
-
-## 🩺 Centro de Control & Endpoint de Monitoreo (`/api/health`)
-
-GestionA™ incluye un endpoint de alta disponibilidad para observabilidad en tiempo real, listo para conectarse a plataformas como **Uptime Kuma, Better Stack, Datadog, Grafana** o el **Centro de Control Central de BetoGraf**:
-
-* 🌐 **URL Oficial Producción:** `https://gestiona.betograf.cl/api/health`
-* ☁️ **URL Espejo de Respaldo:** `https://ticketerabetograf.vercel.app/api/health`
-* 📡 **Método:** `GET` (Caché `no-store, no-cache`, tiempo real)
-* 🚦 **Códigos HTTP:** `200 OK` (Operacional) / `503 Service Unavailable` (Crítico)
-* 🏷️ **Headers:** `X-Service-Status` y `X-Response-Time`
-* 📊 **Métricas Expuestas:**
-  - **Sub-sistemas:** Ping/latencia de PostgreSQL en Supabase, estado del storage de evidencias, Web Push VAPID y Passkeys.
-  - **Telemetría Operativa:** Total tickets, alertas críticas activas, distribución por estados de atención y tasa de resolución porcentual.
-  - **Activos:** Total equipos, disponibilidad operativa (%) y fallas vigentes.
-  - **Infraestructura:** Total plantas y desglose por grupos corporativos (*Correos de Chile, Cial Alimentos, Estadio Monumental, Orsan Valle Grande*).
 
 ---
 
