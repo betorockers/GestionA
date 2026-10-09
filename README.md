@@ -227,6 +227,23 @@ GestionA™ está construido sobre los estándares más exigentes de la ingenier
 
 ---
 
+## 🩺 Centro de Control & Endpoint de Monitoreo (`/api/health`)
+
+GestionA™ incluye un endpoint de alta disponibilidad para observabilidad en tiempo real, listo para conectarse a plataformas como **Uptime Kuma, Better Stack, Datadog, Grafana** o el **Centro de Control Central de BetoGraf**:
+
+* 🌐 **URL Oficial Producción:** `https://gestiona.betograf.cl/api/health`
+* ☁️ **URL Espejo de Respaldo:** `https://ticketerabetograf.vercel.app/api/health`
+* 📡 **Método:** `GET` (Caché `no-store, no-cache`, tiempo real)
+* 🚦 **Códigos HTTP:** `200 OK` (Operacional) / `503 Service Unavailable` (Crítico)
+* 🏷️ **Headers:** `X-Service-Status` y `X-Response-Time`
+* 📊 **Métricas Expuestas:**
+  - **Sub-sistemas:** Ping/latencia de PostgreSQL en Supabase, estado del storage de evidencias, Web Push VAPID y Passkeys.
+  - **Telemetría Operativa:** Total tickets, alertas críticas activas, distribución por estados de atención y tasa de resolución porcentual.
+  - **Activos:** Total equipos, disponibilidad operativa (%) y fallas vigentes.
+  - **Infraestructura:** Total plantas y desglose por grupos corporativos (*Correos de Chile, Cial Alimentos, Estadio Monumental, Orsan Valle Grande*).
+
+---
+
 ## 💼 Modalidades de Implementación Corporativa
 
 GestionA™ se despliega exclusivamente bajo acuerdos corporativos personalizados para empresas de mantenimiento, seguridad electrónica, centros logísticos y plantas productivas:
