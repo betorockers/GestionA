@@ -175,7 +175,7 @@ Diseñado para procesos de migración desde planillas Excel, sistemas legados o 
 * **Generación Inmediata de Informe:** Crea el Acta Técnica en PDF al instante para responder a requerimientos de auditores o clientes.
 
 ### 8. 🏢 Auditoría Multisede & Grupos Corporativos (Aislamiento por Razón Social)
-GestionA™ incorpora una arquitectura multi-sede que permite agrupar múltiples instalaciones bajo una única empresa cliente (ej. *Correos de Chile* integrando simultáneamente *CEP Correos Renca* y *CTP Correos Quilicura*, o clientes con planta única como *Cial Alimentos*, *Estadio Monumental* y *Orsan Seguros*):
+GestionA™ incorpora una arquitectura multi-sede que permite agrupar múltiples instalaciones bajo una única empresa cliente (ej. *Correos de Chile* integrando simultáneamente *CEP Correos Renca* y *CTP Correos Quilicura*, o clientes con planta única como *Cial Alimentos*, *Estadio Monumental* y *Orsan Valle Grande*):
 * **Selector Dinámico de Auditoría:** En el módulo de reportes, permite conmutar en un clic entre la auditoría consolidada global y el reporte exclusivo de un cliente específico.
 * **Informes Ejecutivos PDF Blindados:** El motor de PDF emite documentos oficiales de nivel Fortune 500 con métricas, gráficos de SLA y desglose de tickets acotados exclusivamente a la empresa seleccionada, garantizando estricta confidencialidad entre clientes.
 * **Escalabilidad Modular:** Nuevas instalaciones pueden sumarse a grupos existentes o inaugurar nuevos holdings sin necesidad de alterar el código fuente.
