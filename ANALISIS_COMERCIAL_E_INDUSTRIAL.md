@@ -61,6 +61,8 @@ Cuando ocurre un siniestro o falla mayor en un activo crítico (ej. caída de po
 | **Alertas Push en Pantalla de Bloqueo** | ❌ No | ❌ Requiere app nativa pesada | ✅ **Web Push API PWA en 2.5 seg** |
 | **Trazabilidad de Historial de Activos** | ❌ Desconectada | ⚠️ Limitada a base central | ✅ **Escaneo QR nativo con cámara** |
 | **Carga de Históricos para Auditorías** | ❌ No | ❌ Rechaza fechas pasadas | ✅ **Módulo oficial retroactivo** |
+| **Auditoría Multisede Aislada por Cliente** | ❌ Cruce manual con riesgo de fuga de datos | ⚠️ Mezcla clientes o cobra licencias extra | ✅ **Aislamiento dinámico por Holding / Planta** |
+| **API de Telemetría para Centros de Control (NOC)** | ❌ Inexistente | ⚠️ Módulo cerrado o add-on costoso | ✅ **Nativa (`/api/health`) en tiempo real** |
 | **Curva de Aprendizaje del Técnico** | N/A | ❌ Semanas (complejo) | ✅ **15 minutos (diseño táctil)** |
 
 ---

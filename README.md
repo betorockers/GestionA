@@ -108,7 +108,7 @@ A continuación se presentan capturas reales de la interfaz de **GestionA™**, 
 
 ---
 
-## ⚡ Los 7 Pilares de Excelencia Operacional
+## ⚡ Los 9 Pilares de Excelencia Operacional
 
 ```
   ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -120,6 +120,8 @@ A continuación se presentan capturas reales de la interfaz de **GestionA™**, 
   │   5. 📑 Generador Inmediato de Actas Técnicas PDF Oficiales con Firma Legal            │
   │   6. 🏷️ Rotulación de Activos QR de Alta Densidad y Escaneo por Cámara Nativa          │
   │   7. 🏛️ Módulo de Carga Histórica para Auditorías y Respaldo de Atenciones Previas     │
+  │   8. 🏢 Auditoría Multisede & Grupos Corporativos (Aislamiento Total por Cliente)      │
+  │   9. 🛡️ Telemetría en Vivo & API de Monitoreo Central (/api/health para NOC/SOC)      │
   │                                                                                        │
   └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -169,7 +171,20 @@ Diseñado para procesos de migración desde planillas Excel, sistemas legados o 
 * **Respeto de Fechas Históricas:** Permite registrar solicitudes y cierres con fechas pasadas (ej. 2023, 2024, 2025).
 * **Folio con Año Histórico:** La orden adopta el año verídico del evento (ej. `OT-ORS-2024-0001`).
 * **Cálculo SLA Retroactivo:** Tiempo de respuesta e intervención cronometrados con precisión histórica.
+* **Soporte de Contratistas Externos:** Admite registrar técnicos y empresas contratistas con prioridad sobre el personal interno para conservar la autoría real de la atención.
 * **Generación Inmediata de Informe:** Crea el Acta Técnica en PDF al instante para responder a requerimientos de auditores o clientes.
+
+### 8. 🏢 Auditoría Multisede & Grupos Corporativos (Aislamiento por Razón Social)
+GestionA™ incorpora una arquitectura multi-sede que permite agrupar múltiples instalaciones bajo una única empresa cliente (ej. *Correos de Chile* integrando simultáneamente *CEP Correos Renca* y *CTP Correos Quilicura*, o clientes con planta única como *Cial Alimentos*, *Estadio Monumental* y *Orsan Seguros*):
+* **Selector Dinámico de Auditoría:** En el módulo de reportes, permite conmutar en un clic entre la auditoría consolidada global y el reporte exclusivo de un cliente específico.
+* **Informes Ejecutivos PDF Blindados:** El motor de PDF emite documentos oficiales de nivel Fortune 500 con métricas, gráficos de SLA y desglose de tickets acotados exclusivamente a la empresa seleccionada, garantizando estricta confidencialidad entre clientes.
+* **Escalabilidad Modular:** Nuevas instalaciones pueden sumarse a grupos existentes o inaugurar nuevos holdings sin necesidad de alterar el código fuente.
+
+### 9. 🛡️ Telemetría en Vivo & API de Monitoreo Central (`/api/health`)
+Para organizaciones que operan con Centros de Control (NOC/SOC) o plataformas de observabilidad como Uptime Kuma, Datadog o Grafana:
+* **Diagnóstico Integral en Milisegundos:** Endpoint nativo `/api/health` que audita en tiempo real la conectividad de base de datos PostgreSQL, storage de evidencias en la nube y servicios Web Push.
+* **KPIs Operacionales en el Payload:** Entrega conteos en vivo de órdenes críticas activas, tasa de resolución, estado operativo del parque de activos y disponibilidad de cuadrillas técnicas.
+* **Arquitectura Privativa No Indexable:** Diseñada para integrarse en tableros de control externos manteniendo la infraestructura invisible para motores de búsqueda públicos.
 
 ---
 
